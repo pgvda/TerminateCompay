@@ -1,0 +1,168 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+.main_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px ;
+    padding-top: 20px;
+    background-color: #F6F1EE;
+    
+}
+
+.image_field {
+    height: 600px;
+    width: 400px;
+    margin-top: 50px;
+    margin-right: 350px;
+    border-radius: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.text_field {
+    margin-top: 50px;
+    margin-left: 350px;
+    padding-top: 60px;
+}
+
+.text_fied_header {
+    font-size: 70px;
+    color: #4F4A45;
+    font-weight: normal;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -100px;
+    overflow: hidden;
+    letter-spacing: 7px;
+    border-right: 2px solid black;
+    white-space: nowrap;
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+      blinkTextCursor 500ms infinite;
+
+      @keyframes typewriter {
+        from {
+          width: 0;
+        }
+        to {
+          width: 460px;
+        }
+      }
+      @keyframes blinkTextCursor {
+        from {
+          border-right-color: hsl(0, 0%, 80%);
+        }
+        to {
+          border-right-color: transparent;
+        }
+      }
+}
+
+
+
+.text_field_input {
+    height: 40px;
+    width: 500px;
+    border: 2px black solid;
+    border-radius: 20px;
+}
+
+.colaboration_div {
+
+}
+
+.profile {
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    border: 2px blue solid;
+    border-radius: 10px;
+
+}
+
+
+
+.profile_image {
+    
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    justify-items: center;
+    border-width: 0 2px 0 0;
+    border-style: solid;
+    border-color: blue;
+
+}
+
+.profile_image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+
+}
+
+.profile_details {
+    margin-left: 20px;   
+}
+
+.colaborator_name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+
+    
+
+}
+
+.colaborator_details {
+    font-size: 15px;
+    margin-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.SignUpPage__sliderImage__wrapper {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    display: none;
+    align-items: flex-end;
+    justify-content: flex-end;
+    &.active {
+      display: flex;
+    }
+  
+
+  
+    img {
+      width: 100%;
+      object-fit: cover;
+      border: 1px solid linear-gradient(145.84deg, #eeedee 5.78%, #be024b 93.86%);
+      z-index: 1;
+      animation: slider 0.5s ease-in;
+      scale: 150%;
+      border-radius: 10px;
+    }
+    p {
+      position: absolute;
+      padding-top: opx;
+      bottom: 2rem;
+      right: 0;
+      width: 70%;
+      font-weight: 700;
+      font-size: 1.6rem;
+      padding: 1rem;
+      color: linear-gradient(145.84deg, #6b1b07 5.78%, #c42964 93.86%);
+      z-index: 2;
+      text-transform: capitalize;
+      animation: fadeIn 0.5s ease-in-out;
+    }
+  }
+  

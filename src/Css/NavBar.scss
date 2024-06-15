@@ -1,0 +1,54 @@
+.navbar_div {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ED7D31;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+
+    li {
+        display: inline-block;
+        margin-right: 20px;
+        
+        a {
+            text-decoration: none; 
+            color: inherit; 
+
+        }
+    }
+
+}
+
+
+.logo_div_navbar img {
+    height: 100px;
+   margin-left: 50px;
+}
+
+.tab_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.tab_div li {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 50px;
+    list-style-type: none;
+    cursor: pointer;
+
+}
+
+.tab_div li:hover {
+    color: blue;
+    font-size: 27px;
+}
