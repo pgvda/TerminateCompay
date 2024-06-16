@@ -46,7 +46,17 @@ const Home = () => {
                         </div>
                         <div className="profile_details">
                             <p className="colaborator_name">VIDUSHA DILSHAN</p>
-                            <p className="colaborator_details">Department of computer Engineering (UG) <br />University of Ruhuna</p>
+                            <p className="colaborator_details">Department of computer Engineering <br /> (UG) University of Ruhuna</p>
+                        </div>
+                    </div>
+
+                    <div className="row profile">
+                        <div className="profile_image">
+                            <img src={profile} />
+                        </div>
+                        <div className="profile_details">
+                            <p className="colaborator_name">AVISHKA INDRAJITH</p>
+                            <p className="colaborator_details">Department of mechanicle & manufaturing engineering (UG) <br />University of Ruhuna</p>
                         </div>
                     </div>
 

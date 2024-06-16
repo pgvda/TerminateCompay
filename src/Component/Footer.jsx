@@ -24,7 +24,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="row description_div">
-            <p>At [Your Company Name], we specialize in delivering top-notch web development, mobile app development, and comprehensive web maintenance services. Our expert team is dedicated to creating innovative, efficient, and user-friendly solutions tailored to meet your unique business needs. Partner with us to transform your digital presence and drive your business forward.</p>
+            <p>At Terminate pvt Ltd, we specialize in delivering top-notch web development, mobile app development, and comprehensive web maintenance services. Our expert team is dedicated to creating innovative, efficient, and user-friendly solutions tailored to meet your unique business needs. Partner with us to transform your digital presence and drive your business forward.</p>
           </div>
           <div className="row contact_div">
             <div className="col contact_details_div">

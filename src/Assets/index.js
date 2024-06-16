@@ -4,6 +4,7 @@ import sliderImageOne from './sliderImageOne.jpeg';
 import sliderImageTwo from './sliderImageTwo.jpg';
 import sliderImageThree from './sliderImageThree.jpg';
 import sliderImagefour from './sliderImagefour.jpg';
+import projectBanner from './projectBanner.jpg'
 
 export{
     logo,
@@ -11,5 +12,6 @@ export{
     sliderImageOne,
     sliderImageTwo,
     sliderImageThree,
-    sliderImagefour
+    sliderImagefour,
+    projectBanner
 }
