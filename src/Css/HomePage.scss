@@ -70,12 +70,13 @@
 }
 
 .colaboration_div {
+  scroll-behavior: auto; // uncomplete 
 
 }
 
 .profile {
     width: 500px;
-    height: 100px;
+    height: 110px;
     margin-top: 20px;
     display: flex;
     flex-direction: row;
@@ -89,7 +90,7 @@
 .profile_image {
     
     width: 100px;
-    height: 100px;
+    height: 110px;
     margin: 0px;
     justify-items: center;
     border-width: 0 2px 0 0;

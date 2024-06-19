@@ -42,5 +42,83 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 20px;
+    margin-left: 170px;
+}
+
+.btn_descreaption {
+    font-size: 25px;
+    margin: 10px;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #F6F1EE;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.about_project {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.about_project_img_div {
+    height: auto;
+    width: 50%;
+    margin: 0;
+}
+
+.about_project_img_div img {
+    scale: 80%;
+    margin-left: -100px;
+    
+}
+
+.about_project_descreaption_div {
+    height: auto;
+    width: 700px;
     margin-left: 200px;
+    
+}
+
+.about_project_descreaption_div p {
+    margin-top: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+}
+
+.project_technologies {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.technology_div {
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    background-color: #F6F1EE;
+    border: 2px solid #6C5F5B;
+    border-radius: 15px;
+}
+
+.technology_div_img_div {
+    margin-top: 10px;
+    height: 200px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.technology_div_img {
+    scale: 25%;
+    margin-top: -200px;
 }
